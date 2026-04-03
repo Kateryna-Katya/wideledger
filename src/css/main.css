@@ -125,3 +125,20 @@ align-items: center;
     width: 544px;
   }
 }
+/* Battery Saver Mode */
+.battery-container{
+    display: flex;
+        flex-direction: column;
+        gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.battery-container {
+flex-direction: row;
+align-items: start;
+        gap: 97px;
+        justify-content: center;
+    }
+    .battery-wrapper{
+        width: 544px;
+    }
+}
