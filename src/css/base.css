@@ -26,4 +26,10 @@ h3{
   body{
     font-size: 18px;
   }
+  h2{
+    font-size: 48px;
+  }
+  h3{
+    font-size: 28px;
+  }
 }

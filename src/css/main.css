@@ -51,6 +51,21 @@ width: 543px;
     font-size: 72px;
 }
 .home-subtitle{
-
+font-size: 28px;
 }
+}
+/* Select Your Difficulty */
+.select-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+@media only screen and (min-width: 1440px) {
+ .select-container{
+    flex-direction: row;
+    align-items: center;
+ }
+ .select-wrapper{
+    width: 580px;
+ }
 }
