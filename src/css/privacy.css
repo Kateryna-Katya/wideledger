@@ -1,15 +1,15 @@
 @import url('./styles.css');
 
 .background {
-    font-family: "Bellota Text", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: left;
 }
 
 .privacy-title {
+    font-family: "Zen Maru Gothic", sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 1.2;
+        color: #122b48;
     margin-top: 70px;
     margin-bottom: 30px;
 
@@ -22,9 +22,11 @@
 }
 
 .policy-subtitle {
-    font-family: "Bellota Text", sans-serif;
+font-family: "Zen Maru Gothic", sans-serif;
+font-weight: 700;
     font-size: 24px;
     line-height: 1.3;
+    color: #122b48;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
@@ -56,4 +58,12 @@
 
 .policy-span {
     font-weight: 700;
+}
+@media only screen and (min-width: 1440px) {
+.privacy-title{
+    font-size: 48px;
+}
+.policy-subtitle{
+    font-size: 28px;
+}
 }
