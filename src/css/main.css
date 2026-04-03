@@ -69,3 +69,26 @@ font-size: 28px;
     width: 580px;
  }
 }
+/* Customize Your Puzzle Experience */
+.customize-list{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    padding-left: 30px;
+}
+.customize-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.customize-wrapper{
+    width: 544px;
+}
+.customize-container{
+    flex-direction: row-reverse;
+    gap: 100px;
+    justify-content: center;
+}
+}
